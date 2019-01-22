@@ -1,0 +1,17 @@
+#!/bin/sh
+# A small script to loop over the images on a directory 
+
+normalPath=~/Imagens
+#killall loopBg
+if [ -n $1 ]; then
+	while true; do
+		for image in ${normalPath}/${1}/*; do
+			killall feh
+			feh --bg-scale "$image"
+			betterlockscreen -u "$image"
+			sleep 5m
+		done
+	done
+else
+	echo "There must be an argument"
+fi
