@@ -13,10 +13,16 @@ exec . $HOME/.profile
 
 # Startup Applications
 exec --no-startup-id $HOME/.bin/initI3
+# Music Player Daemon
+exec --no-startup-id mpd
+# Compositor
+exec --no-startup-id compton -b
+# Background image
+exec --no-startup-id feh --bg-scale ~/Imagens/Landscapes/1493480153764.jpg
 # Internet applet
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 # Pulseaudio applet
-exec --no-startup-id pa-applet
+#exec --no-startup-id pa-applet
 
 set $mod Mod4
 
@@ -246,7 +252,7 @@ bar {
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
-	font pango:DejaVu Sans Mono 10
+	font pango:DejaVu Sans Mono, FontAwesome 9
 	status_command i3blocks
 	position top
 	mode dock

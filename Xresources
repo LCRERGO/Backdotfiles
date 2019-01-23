@@ -1,0 +1,56 @@
+!! Google Dark Theme
+! light gray
+*.foreground:	#c5c8c6
+! black
+*.background:	#1d1f21
+! light gray
+*.cursorColor:	#c5c8c6
+
+! black
+*.color0:	#1d1f21
+! dark gray
+*.color8:	#969896
+! red
+*.color1:	#cc342b
+! red
+*.color9:	#cc342b
+! green
+*.color2:	#198844
+! green
+*.color10:	#198844
+! hard yellow
+*.color3:	#fba922
+! hard yellow
+*.color11:	#fba922
+! small blue
+*.color4:	#3981ed
+! small blue
+*.color12:	#3981ed
+! light purple
+*.color5:	#a36ac7
+! light purple
+*.color13:	#a36ac7
+! small blue
+*.color6:	#3981ed
+! small blue
+*.color14:	#3981ed
+! light gray
+*.color7:	#c5c8c6
+! sheer white
+*.color15:	#ffffff
+
+!! URxvt configuration
+! URxvt transparency
+URxvt*depth:		32
+URxvt*background:	rgba:0000/0000/0200/c800
+
+! URxvt scrollbar true(default) or false
+URxvt*scrollBar:	false
+
+! URxvt font
+URxvt*font:		xft:Hack:antialias=true:pixelsize=12
+
+!! xterm configuration
+! xterm font
+XTerm.vt100.faceName:	Liberation Mono:size=10:antialias=true
+XTerm.vt100.font:	7x13
