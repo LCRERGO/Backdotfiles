@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-exec . $HOME/.profile
+#exec . ~/.profile
 
 # Startup Applications
 exec --no-startup-id $HOME/.bin/initI3
