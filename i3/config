@@ -13,16 +13,14 @@
 
 # Startup Applications
 exec --no-startup-id $HOME/.bin/initI3
+# Glava
+exec --no-startup-id $HOME/.bin/glavaStart
 # Music Player Daemon
 exec --no-startup-id mpd
 # Compositor
 exec --no-startup-id compton -b
 # Background image
-exec --no-startup-id feh --bg-scale ~/Imagens/Landscapes/1493480153764.jpg
-# Internet applet
-#exec --no-startup-id nm-applet
-# Pulseaudio applet
-#exec --no-startup-id pa-applet
+exec --no-startup-id ~/.fehbg
 
 set $mod Mod4
 

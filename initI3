@@ -3,18 +3,14 @@
 
 # Set keyboard layout to pt_BR
 setxkbmap -layout br
+# Set Num Lock active
+numlockx &
 # Removes the system bell
 xset -b
 # Gets the style of the system
 xrdb ~/.Xresources
-# Compositor
-exec compton &
-# Background image
-exec feh --bg-scale ~/Imagens/Landscapes/1493480153764.jpg
 #loopBg Wallpapers & #loopBg isn't working
 
-# Music Player Daemon(MPD)
-# exec --no-startup-id mpd
 ## caffeine(don't know what this is about)
 # Dunst (a notification-daemon) 
 #exec --no-startup-id dunst

@@ -1,4 +1,4 @@
 #!/bin/env sh
 # A script to start glava prefered modes
-glava -d --force-mod=radial
-glava -d --force-mod=graph
+glava -d --force-mod=radial &
+glava -d --force-mod=graph &
