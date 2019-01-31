@@ -85,16 +85,16 @@ color=#d9534f
 #
 # If the instance is not specified, use the interface used for default route.
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
-[iface]
+#[iface]
 #instance=wlan0
-color=#00FF00
-interval=10
-separator=false
+#color=#00FF00
+#interval=10
+#separator=false
 
-[wifi]
+#[wifi]
 #instance=wlp3s0
-interval=10
-separator=false
+#interval=10
+#separator=false
 
 #[bandwidth]
 #instance=eth0
@@ -147,7 +147,7 @@ color=#d9534f
 # Date Time
 #
 [time]
-command= date '+%d/%m/%Y %H:%M'
+command= date '+%d/%m/%Y %H:%M'
 label=
 interval=5
 
