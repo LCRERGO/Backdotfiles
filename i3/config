@@ -64,8 +64,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Media player controls
-bindsym XF86AudioPlay exec mpc play
-bindsym XF86AudioPause exec mpc pause
+bindsym XF86AudioPlay exec mpc toggle
 bindsym XF86AudioNext exec mpc next
 bindsym XF86AudioPrev exec mpc prev
 
@@ -264,21 +263,21 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 # Start i3blocks a replacement for i3status
-#bar {
-#	colors{
-#		background $bg-color
-#	    	separator #757575
-#		#                  border             background         text
-#		focused_workspace  $bg-color          $bg-color          $text-color
-#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-#	}
-#	font pango:DejaVu Sans Mono, FontAwesome 9
-#	status_command i3blocks
-#	position top
-#	mode dock
-#	id bar-0
-#}
+bar {
+	colors{
+		background $bg-color
+	    	separator #757575
+		#                  border             background         text
+		focused_workspace  $bg-color          $bg-color          $text-color
+		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+	}
+	font pango:DejaVu Sans Mono, FontAwesome 9
+	status_command i3blocks
+	position top
+	mode dock
+	id bar-0
+}
 
 # Polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
