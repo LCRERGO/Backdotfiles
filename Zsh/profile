@@ -3,4 +3,6 @@
 export PATH=$PATH:/home/lucas/.bin
 export TERMINAL=st
 export EDITOR=vim
-export BROWSER=opera
+export BROWSER=firefox
+export FILE_BROWSER=ranger
+export MUSIC_PLAYER=ncmpcpp
