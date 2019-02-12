@@ -96,7 +96,9 @@ URxvt*background:	rgba:0000/0000/0200/c800
 URxvt*scrollBar:	false
 
 ! URxvt font
-URxvt*font:		xft:Hack:antialias=true:pixelsize=12
+URxvt*font:		xft:Hack Nerd Font Mono:antialias=true:pixelsize=12:minspace=false, xft:DejaVu Sans:antialias=true:pixelsize=10
+URxvt*boldFont:		xft:Hack Nerd Font Mono:antialias=true:pixelsize=12:minspace=false, xft:DejaVu Sans:antialias=true:pixelsize=10
+!URxvt*letterSpace:	1
 
 !! xterm configuration
 ! xterm font
