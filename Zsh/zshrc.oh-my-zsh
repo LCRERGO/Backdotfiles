@@ -104,4 +104,13 @@ source $ZSH/oh-my-zsh.sh
 # Color Neofetch
 alias neofetch='neofetch | lolcat'
 # Alias for Wheather
-alias weather='curl wttr.in'
+#alias weather='curl wttr.in'
+
+# function for weather
+function weather {
+    if [ -z $1 ]; then
+	curl wttr.in
+    else
+	curl wttr.in/$1
+    fi
+}
