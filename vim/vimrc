@@ -1,6 +1,6 @@
 " User vim configuration
-" Pathogen started
-execute pathogen#infect()
+" Pathogen started(disabled by default)
+"execute pathogen#infect()
 
 " Basic configuration
 syntax on		    " Enables file syntax
