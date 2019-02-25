@@ -1,14 +1,25 @@
 " User vim configuration
 " Pathogen started(disabled by default)
-"execute pathogen#infect()
+execute pathogen#infect()
 
 " Basic configuration
 syntax on		    " Enables file syntax
 filetype plugin indent on   " For pathogen
 set hlsearch		    " Highlight all search results
-set number		    " Show line numbers
+set number relativenumber   " Show line numbers
 set autoindent		    " Auto-indent new lines
 set shiftwidth=4	    " Number of auto-indent spaces
 set smartindent		    " Enable smart-indent
 set smarttab		    " Enable smart-tabs
 set softtabstop=4	    " Number of spaces per tab
+" Corecting the split
+set splitbelow splitright
+
+" Airline themes
+let g:airline_theme='ravenpower'
+let g:airline_powerline_fonts = 1
+
+" Nerd Tree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+map <C-n> :NERDTreeToggle<CR>
