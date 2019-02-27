@@ -62,7 +62,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git vi-mode)
 
 
 # User configuration
@@ -114,3 +114,6 @@ function weather {
 	curl wttr.in/$1
     fi
 }
+
+# I3 start helper
+alias starti3='startx /usr/bin/i3'

@@ -12,9 +12,9 @@
 #exec . ~/.profile
 
 # Startup Applications
-exec --no-startup-id $HOME/.bin/initI3
+exec --no-startup-id $HOME/.bin/basicStart
 # Glava
-exec --no-startup-id $HOME/.bin/glavaStart
+#exec --no-startup-id $HOME/.bin/glavaStart
 # Music Player Daemon
 exec --no-startup-id mpd
 # Compositor
