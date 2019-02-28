@@ -1,6 +1,7 @@
 # Newsboat configuration file
 # General configuration
 auto-reload yes
+download-path ~/Downloads
 
 # Colors configuration
 color listnormal cyan default

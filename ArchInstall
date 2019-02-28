@@ -1,0 +1,192 @@
+# Graphics card
+xf86-video-amdgpu
+vulkan-radeon
+mesa
+lib32-mesa
+
+# Drawing tablet
+xf86-input-wacom
+
+# Audio Video Utilities
+rhythmbox
+vlc
+mpd
+mpc
+ncmpcpp
+pulseaudio
+pulseaudio-alsa
+
+# Shell Work
+zsh
+zsh-completions
+grml-zsh-config
+tmux
+vim
+vim-airline
+vim-airline-themes
+vim-syntastic
+
+# Development
+git
+
+# Xorg Utilities
+xorg-server
+xorg-xinit
+xorg-xrandr
+xorg-xprop
+    # Dwm specific
+    xorg-xsetroot
+
+# Blacklight replacement
+light
+
+# Bluetooth
+# FrontEnd
+blueman
+# Backend
+bluez
+
+# Network
+networkmanager
+network-manager-applet
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+
+# Grub helpers
+grub
+# For btrfs snapshots support
+grub-btrfs
+intel-ucode
+
+# Browser
+firefox
+
+# Graphics
+darktable
+gimp
+gimp-help-pt_br
+krita
+inkscape
+    # Inkscape plugins
+    python2-scour
+    python2-numpy
+    python2-lxml
+
+light-locker
+
+# Package Management
+engrampa
+unzip
+p7zip
+unrar
+gvfs
+
+# Password manager
+gnome-keyring
+
+# XFCE specific
+xfce4
+xfce4-goodies
+
+# Kernel
+linux(-headers)
+linux-lts(-headers)
+linux-zen(-headers)
+
+# Dockbar
+plank
+
+# User directories
+xdg-user-dirs(-gtk)
+
+# RSS/Podcast
+newsboat
+
+# IRC client
+irssi
+
+# Youtube Downloader
+youtube-dl
+
+# PDF Readers
+evince(atril)
+zathura
+zathura-pdf-mupdf
+
+# Image Viewer
+feh
+
+# Terminal Emulator
+rxvt-unicode
+
+# Torrent
+transmission-cli
+
+# I3
+i3-gaps
+i3blocks
+    # i3block scripts requirements
+    acpi
+    alsa-utils
+    bc
+    lm_sensors
+    playerctl
+    sysstat
+    # Dmenu replacement
+    rofi
+
+# File Browser
+ranger
+    # Image support
+    w3m
+
+
+# Compositor
+compton
+
+# Fonts
+awesome-terminal-fonts
+ttf-font-awesome
+font-mathematica
+noto-fonts-emoji
+wqy-zenhei
+noto-fonts-cjk
+ttf-freefont
+ttf-linux-libertine
+ttf-hack
+ttf-roboto
+ttf-dejavu
+noto-fonts
+font-bh-ttf
+bdf-unifont
+ttf-libertation
+ttf-bitstream-vera
+ttf-droid
+ttf-fira-code
+
+# Virtualbox
+virtualbox
+virtualbox-guest-iso
+virtualbox-host-dkms
+
+# Candy rice
+neofetch
+lolcat
+glava
+
+
+
+# AUR
+yay
+google-chrome
+wd719x-firmware
+oh-my-zsh-git
+bullet-train-oh-my-zsh-theme-git
+mugshot
+xfce4-volumed-pulse
+betterlockscreen
+nerd-fonts-complete
+arch-silence-grub-theme
+polybar
