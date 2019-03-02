@@ -1,0 +1,4 @@
+#!/bin/env sh
+# A script to start glava prefered modes
+glava -d --force-mod=radial --entry=~/.config/glava/rc.glsl.xfce4 &
+glava -d --force-mod=graph --entry=~/.config/glava/rc.glsl.xfce4 &

@@ -200,7 +200,9 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # locks i3
-bindsym $mod+Shift+x exec "betterlockscreen --lock blur --text 'Say My Name'"
+#bindsym $mod+Shift+x exec "betterlockscreen --lock blur --text 'Say My Name'"
+# locks i3 with lightdm
+bindsym $mod+Shift+x exec "dm-tool switch-to-greeter"
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
