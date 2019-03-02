@@ -156,15 +156,29 @@ noto-fonts-cjk
 ttf-freefont
 ttf-linux-libertine
 ttf-hack
+ttf-lato
 ttf-roboto
 ttf-dejavu
 noto-fonts
 font-bh-ttf
 bdf-unifont
-ttf-libertation
+ttf-liberation
 ttf-bitstream-vera
 ttf-droid
 ttf-fira-code
+artwiz-fonts
+cantarell-fonts 
+dina-font
+gnu-free-fonts
+ttf-anonymous-pro
+ttf-caladea ttf-carlito
+ttf-cheapskate
+ttf-cormorant
+ttf-croscore
+ttf-fantasque-sans-mono
+ttf-inconsolata
+ttf-ubuntu-font-family 
+ttf-junicode
 
 # Virtualbox
 virtualbox
