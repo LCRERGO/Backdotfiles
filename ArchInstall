@@ -10,11 +10,16 @@ xf86-input-wacom
 # Audio Video Utilities
 rhythmbox
 vlc
+# Music
 mpd
 mpc
 ncmpcpp
+
+# Pulseaudio
 pulseaudio
 pulseaudio-alsa
+    # Pulse audio Mixer
+    pavucontrol
 
 # Shell Work
 zsh
