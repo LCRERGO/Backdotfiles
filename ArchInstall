@@ -1,8 +1,13 @@
 # Graphics card
+# AMD
 xf86-video-amdgpu
 vulkan-radeon
 mesa
 lib32-mesa
+# Nvidia
+nvidia
+nvidia-utils
+lib32-nvidia-utils
 
 # Drawing tablet
 xf86-input-wacom
@@ -63,10 +68,16 @@ lightdm-gtk-greeter
 grub
 # For btrfs snapshots support
 grub-btrfs
+btrfs-progs
 intel-ucode
 
 # Browser
 firefox
+    # Language pack
+    firefox-i18n-pt-br
+    # Ad-ons
+    firefox-adblock-plus
+    firefox-dark-reader
 
 # Graphics
 darktable
@@ -176,7 +187,8 @@ cantarell-fonts
 dina-font
 gnu-free-fonts
 ttf-anonymous-pro
-ttf-caladea ttf-carlito
+ttf-caladea 
+ttf-carlito
 ttf-cheapskate
 ttf-cormorant
 ttf-croscore
