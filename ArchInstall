@@ -106,6 +106,13 @@ gnome-keyring
 xfce4
 xfce4-goodies
 
+# KDE specific
+plasma-meta
+    # Wayland Support
+    plasma-wayland-session
+    # KDE applications
+    kde-applications-meta
+
 # Kernel
 linux(-headers)
 linux-lts(-headers)
