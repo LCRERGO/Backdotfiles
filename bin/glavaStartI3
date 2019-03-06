@@ -1,4 +1,4 @@
 #!/bin/env sh
 # A script to start glava prefered modes
-glava -d --force-mod=radial --entry=~/.config/glava/rc.glsl.i3 &
-glava -d --force-mod=graph --entry=~/.config/glava/rc.glsl.i3 &
+glava -d -m radial -e rc.glsl.i3 &
+glava -d -m graph -e rc.glsl.i3 &
