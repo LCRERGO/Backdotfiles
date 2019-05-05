@@ -36,6 +36,7 @@ vim-airline
 vim-airline-themes
 vim-syntastic
 rsync
+bind-tools
 
 # Development
 git
