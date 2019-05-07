@@ -146,6 +146,8 @@ zathura-pdf-mupdf
 
 # Image Viewer
 feh
+# Wallpaper setter
+xwallpaper
 
 # Terminal Emulator
 rxvt-unicode
