@@ -23,6 +23,7 @@ ncmpcpp
 # Pulseaudio
 pulseaudio
 pulseaudio-alsa
+pulsemixer
     # Pulse audio Mixer
     pavucontrol
 
@@ -37,9 +38,12 @@ vim-airline-themes
 vim-syntastic
 rsync
 bind-tools
+gnu-netcat
+traceroute
 
 # Development
 git
+gdb
 
 # Xorg Utilities
 xorg-server
@@ -229,3 +233,41 @@ betterlockscreen
 nerd-fonts-complete
 arch-silence-grub-theme
 polybar
+
+## Blackarch specific
+# Scanners
+nmap
+
+# Exploit Framework
+metasploit
+
+# Recon
+recon-ng
+maltego
+
+# Network
+wireshark
+tcp-dump
+
+# Wireless
+aircrack-ng
+
+
+# Rootkit analisys
+rkhunter
+
+## Compilation
+# Window Manager
+dwm
+
+# Terminal
+st
+
+# Program runer
+dmenu
+
+# Twitter invasion
+twint
+
+# DOS
+xerxes
