@@ -44,6 +44,8 @@ traceroute
 # Development
 git
 gdb
+musl
+clang
 
 # Xorg Utilities
 xorg-server
@@ -197,14 +199,12 @@ ttf-liberation
 ttf-bitstream-vera
 ttf-droid
 ttf-fira-code
-artwiz-fonts
 cantarell-fonts 
 dina-font
 gnu-free-fonts
 ttf-anonymous-pro
 ttf-caladea 
 ttf-carlito
-ttf-cheapskate
 ttf-cormorant
 ttf-croscore
 ttf-fantasque-sans-mono
