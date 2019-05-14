@@ -107,7 +107,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # Color Neofetch
-alias neofetch='neofetch | lolcat'
+alias neofetch='neofetch --ascii_distro Parrot | lolcat'
 # Alias for Wheather
 #alias weather='curl wttr.in'
 

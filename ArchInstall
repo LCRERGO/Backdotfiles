@@ -40,6 +40,8 @@ rsync
 bind-tools
 gnu-netcat
 traceroute
+mlocate
+cronie
 
 # Development
 git
@@ -249,7 +251,7 @@ maltego
 
 # Network
 wireshark
-tcp-dump
+tcpdump
 
 # Wireless
 aircrack-ng
