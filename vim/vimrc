@@ -1,29 +1,39 @@
 " User vim configuration
-" Pathogen started(disabled by default)
-execute pathogen#infect()
+"
+" Plugins(Powered by Plug)
+call plug#begin('~/.vim/plugged')
+" For syntax errors
+Plug 'vim-syntastic/syntastic'
+
+" For the fancy indicator bar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Git bar support
+Plug 'tpope/vim-fugitive'
+
+" Icons for the bar
+Plug 'ryanoasis/vim-devicons'
+
+" Colorscheme
+Plug 'arcticicestudio/nord-vim'
+call plug#end()
 
 " Basic configuration
-syntax on		    " Enables file syntax
-filetype plugin indent on   " For pathogen
-set hlsearch		    " Highlight all search results
-set number relativenumber   " Show line numbers
-set autoindent		    " Auto-indent new lines
-set shiftwidth=4	    " Number of auto-indent spaces
-set smartindent		    " Enable smart-indent
-set smarttab		    " Enable smart-tabs
-set softtabstop=4	    " Number of spaces per tab
-set encoding=utf-8	    " Required to insert unicode characters
-"set foldmethod=indent	    " Folds code by indentation
-" Corecting the split
-set splitbelow splitright
-" Clearing after highligh
-nnoremap <silent> <C-l> :nohl<CR><C-l>
+syntax on				" Enables file syntax
+set encoding=utf-8			" Required to insert unicode characters
+set nohlsearch				" Stops highlighting search results
+set number relativenumber		" Show line numbers
+" Spacing configuration
+set autoindent				" Auto-indent new lines
+set shiftwidth=4			" Number of auto-indent spaces
+set smartindent				" Enable smart-indent
+set smarttab				" Enable smart-tabs
+set softtabstop=4			" Number of spaces per Tab
 
-" Airline themes
-let g:airline_theme='ravenpower'
+set splitbelow splitright		" Changes split orientation
+
+" For airline support
+"let g:airline_theme='ravenpower'	" Fallback theme
+let g:airline_theme='nord'
 let g:airline_powerline_fonts = 1
-
-" Nerd Tree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR>
