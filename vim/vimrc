@@ -33,7 +33,15 @@ set softtabstop=4			" Number of spaces per Tab
 
 set splitbelow splitright		" Changes split orientation
 
+set foldmethod=indent			" Enables fold code
+
 " For airline support
 "let g:airline_theme='ravenpower'	" Fallback theme
 let g:airline_theme='nord'
 let g:airline_powerline_fonts = 1
+
+" Language specific
+" HTML
+autocmd Filetype html setlocal shiftwidth=2 softtabstop=2
+autocmd Filetype css setlocal shiftwidth=2 softtabstop=2
+autocmd Filetype javascript setlocal shiftwidth=2 softtabstop=2
