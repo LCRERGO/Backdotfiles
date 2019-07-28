@@ -1,9 +1,0 @@
-[user]
-	name = Lucas Cruz dos Reis
-	email = lcr.ergo@gmail.com
-
-[core]
-	editor = vim
-
-[color]
-	ui = true
